@@ -24,5 +24,5 @@ Na gestão diária de comunidades de fãs, traduzir mensagens do coreano/inglês
 
 1. **Clone este repositório:**
    ```bash
-   git clone [https://github.com/panmella/assistente-traducao-ia.git](https://github.com/panmella/assistente-traducao-ia.git)
+   git clone https://github.com/panmella/assistente-traducao-ia.git
    cd assistente-traducao-ia
