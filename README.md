@@ -11,8 +11,8 @@ Na gestão diária de comunidades de fãs, traduzir mensagens do coreano/inglês
 3. **Saída e Registro:** Exibe o texto pronto para postagem, contabiliza os caracteres e salva um histórico local automaticamente.
 
 ## Limitações e Uso Responsável de IA
-- **Revisão Humana Obrigatória (Human-in-the-Loop):** Modelos de linguagem podem interpretar incorretamente gírias recentes, ironias ou nuances culturais específicas do coreano. Por isso, a ferramenta atua como apoio de produtividade editorial e todas as saídas passam por conferência humana antes da publicação.
-- **Privacidade e Segurança:** As credenciais de acesso à API são isoladas via variáveis de ambiente (`.env`) e nenhuma informação pessoal ou chave sensível é exposta no código-fonte.
+- **Conferência Editorial (Human-in-the-Loop):** Como não sou fluente em coreano, a ferramenta atua como apoio de produtividade e formatação, mas não substitui a verificação humana. Quando o texto parte apenas do original em coreano, o resultado gerado pela IA é conferido por meio da comparação com traduções em inglês, consulta a termos culturais/contexto do fandom e ferramentas auxiliares antes da publicação.
+- **Privacidade e Segurança:** As credenciais de acesso à API são carregadas via variáveis de ambiente (`.env`) e arquivos locais de histórico são mantidos fora do controle de versão via `.gitignore`.
 
 ## Tecnologias Utilizadas
 - **Python 3**
