@@ -26,3 +26,20 @@ Na gestão diária de comunidades de fãs, traduzir mensagens do coreano/inglês
    ```bash
    git clone https://github.com/panmella/assistente-traducao-ia.git
    cd assistente-traducao-ia
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure as variáveis de ambiente:**
+   Crie um arquivo `.env` na raiz do projeto (baseado no `.env.example`) com a sua chave da API do Google AI Studio:
+   ```env
+   GEMINI_API_KEY=sua_chave_api_do_google_gemini_aqui
+   ```
+
+4. **Execute o assistente:**
+   ```bash
+   py tradutor.py
+   ```
